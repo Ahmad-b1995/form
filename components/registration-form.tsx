@@ -36,7 +36,7 @@ export function RegistrationForm() {
     const [success, setSuccess] = useState(false);
 
     const form = useForm<FormValues>({
-        resolver: zodResolver(formSchema) as any,
+        resolver: zodResolver(formSchema),
         defaultValues: {
             firstName: "",
             lastName: "",

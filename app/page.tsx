@@ -1,5 +1,4 @@
 import { RegistrationForm } from "@/components/registration-form";
-import { UserPlus } from "lucide-react";
 
 export default function Home() {
   return (
